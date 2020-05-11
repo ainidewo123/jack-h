@@ -1,0 +1,21 @@
+{
+  "name": "jack/hello-composer",
+  "description": "This is test!",
+  "type": "library",
+  "require": {
+    "php": ">=5.6"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "jack",
+      "email": "123456*@example.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "jack\\": "src/"
+    }
+  }
+}
